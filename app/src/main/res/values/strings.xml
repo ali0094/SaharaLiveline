@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sahara Live Line</string>
+    <string name="splash_image">splash image</string>
 </resources>
