@@ -99,5 +99,9 @@ dependencies {
     //hilt dependency injection
     implementation("com.google.dagger:hilt-android:2.35.1")
     kapt("com.google.dagger:hilt-compiler:2.35.1")
+    //Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.8.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:3.12.1")
 
 }
