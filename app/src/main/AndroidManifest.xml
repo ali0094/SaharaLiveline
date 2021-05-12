@@ -8,12 +8,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".ScoreApplication"
         android:theme="@style/Theme.SaharaLiveLine">
-        <activity android:name=".ui.MatchActivity"></activity>
-        <activity android:name=".ui.SplashActivity">
+
+        <activity
+            android:name=".ui.MatchActivity"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
