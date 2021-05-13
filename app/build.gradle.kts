@@ -17,6 +17,9 @@ android {
         setProperty("archivesBaseName", "$applicationId-v$versionName($versionCode)")
         resConfigs("en")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "BASE_URL", "\"http://dev.myserver.com\"")
+
     }
 
 
